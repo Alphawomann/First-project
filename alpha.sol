@@ -3,7 +3,7 @@ pragma solidity ^0.5.0;
 
 contract array{
 
-    //Create a struct Microsft which contains name, age, height, class and genotype.
+    //Create a struct Microsoft which contains name, age, height, class and genotype.
 
     struct Microsoft{
        string name;
@@ -19,7 +19,9 @@ contract array{
 function Ifure(string memory _name, uint _age, uint _height, string memory _class, string memory _genotype)public{
 
 //push your struct data into an array
-Sifon.push(Microsoft (_name, _age, _height, _class, _genotype));
+Sifon.push(Microsoft (_name, _age, _height, _class, _genotype)); 
+
+Ifure.push(Microsoft (_name, _age, _height, _class, _genotype)); 
 }
 
 }  
