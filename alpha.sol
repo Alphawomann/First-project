@@ -21,7 +21,6 @@ function Ifure(string memory _name, uint _age, uint _height, string memory _clas
 //push your struct data into an array
 Sifon.push(Microsoft (_name, _age, _height, _class, _genotype)); 
 
-Ifure.push(Microsoft (_name, _age, _height, _class, _genotype)); 
 }
 
 }  
